@@ -1,0 +1,13 @@
+[main]
+ip = <ip of the TA CMI>
+username = <username for the TA CMI>
+password = <password for the TMA CMI>
+can_node = <CAN node number>
+influxip = <ip of the influxdb>
+influxdb = <name of the db>
+influxusername = <username for the influx db>
+influxpassword = <password for the influx db>
+influxtaghost = <host name ... i'm using the CAN node number prefixed with node here>
+influxtagregion = <descriptive name of your installation, i'm using cmi+streetname here>
+mqttip = <MQTT broker ip>
+mqtttopicprefix = <prefix for the MQTT topic>
